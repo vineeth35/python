@@ -1,0 +1,5 @@
+c_hour = int(input("Enter the current hour (0-23): "))
+c_minute = int(input("Enter the current minute (0-59): "))
+next_hour = (current_hour + 1) % 12
+minutes_to_coincide = (60 * next_hour) // 11
+print("The minute hand and hour hand coincide at {} minutes past the next hour.".format(minutes_to_coincide))
