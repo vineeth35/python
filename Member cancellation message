@@ -1,0 +1,14 @@
+days_late = int(input("Enter the number of days the member is late to return the book: "))
+if days_late <= 5:
+    fine = days_late * 0.50
+elif days_late <= 10:
+    fine = 5 + (days_late - 5)
+else:
+    fine = 15 + (days_late - 10) * 5
+if days_late > 30:
+    cancellation_message = "Membership cancelled!"
+else:
+    cancellation_message = ""
+
+print("Fine:", fine, "rupees")
+print(cancellation_message)
