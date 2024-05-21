@@ -1,0 +1,9 @@
+Correct Answer(s):
+
+(1, 55)
+(55, 1)
+(7, 13)
+Explanation:
+This is just checking if they work out to 111.
+
+7 + 13 + (7 * 13) => 20 + 91 => 111
