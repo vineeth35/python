@@ -1,0 +1,14 @@
+
+married = input()
+male = input()
+age = int(input())
+
+
+if married == "yes":
+    print("The driver is eligible for insurance.")
+elif male == "no" and age > 30:
+    print("The driver is eligible for insurance.")
+elif male == "no" and age > 25:
+    print("The driver is eligible for insurance.")
+else:
+    print("The driver is not eligible for insurance.")
