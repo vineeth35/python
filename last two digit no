@@ -1,0 +1,3 @@
+n = int(input("Enter an integer greater than 99: "))
+last_two_digits = n % 100
+print("The last two digits of {} are: {}".format(n, last_two_digits))
