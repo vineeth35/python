@@ -1,0 +1,10 @@
+sides = input("Enter rectangle four sides of length: ").split()
+a, b, c, d = map(int, sides)
+if a == b and c == d:
+    print("Yes")
+elif a == c and b == d:
+    print("Yes")
+elif a == d and b == c:
+    print("Yes")
+else:
+    print("No")
